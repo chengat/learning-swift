@@ -34,3 +34,9 @@ let c = -1
 print(abs(c)) // absolute number
 print(max(a, b)) // max number of the two
 print (min(a, b)) // min number of the two
+
+// single line comment
+/*  multi
+    line
+    comments    */
+/// to generate documentations for functions
