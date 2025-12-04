@@ -18,3 +18,5 @@ var weight: Double = 205.6
 
 // printing variables: \(varName) aka string interpolation
 print("Hello \(name) \(lastName)! You are \(age) and your height is \(height) cm and your weight is \(weight) lbs." )
+
+let a = 1; let b = 2 // ; only for having multiple expressions in one line
