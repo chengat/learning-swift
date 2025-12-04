@@ -40,3 +40,9 @@ print (min(a, b)) // min number of the two
     line
     comments    */
 /// to generate documentations for functions
+
+// ? optional operator - only for declaring nil
+var nickname: String? = nil // for declaring an empty string, nickname here doesnt have a value
+nickname = "NNC"
+print (nickname ?? "no nickname") // print nickname if it has a value, print "no nickname" if nickname is still nil (empty)
+
