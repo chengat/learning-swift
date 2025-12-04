@@ -46,3 +46,7 @@ var nickname: String? = nil // for declaring an empty string, nickname here does
 nickname = "NNC"
 print (nickname ?? "no nickname") // print nickname if it has a value, print "no nickname" if nickname is still nil (empty)
 
+// separator and terminator (contd.)
+print (a, b, c, separator: " | ", terminator:"; \n") // separator to dicatate whats printed in between each var instead of " " by default.
+// terminator can also be used to dicatate how a line ends, using terminator would remove printing a newline unless '\n' is added to it.
+
