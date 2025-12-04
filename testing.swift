@@ -20,3 +20,17 @@ var weight: Double = 205.6
 print("Hello \(name) \(lastName)! You are \(age) and your height is \(height) cm and your weight is \(weight) lbs." )
 
 let a = 1; let b = 2 // ; only for having multiple expressions in one line
+print("\(a) + \(b) = \(a+b)") // \() syntax can do in line math and print em
+
+// to print without a newline, user terminator
+print("a", terminator: " ")
+print("b")
+
+// to print numbers without string interpolation
+print(a, b) // will print with equal spaces
+
+// Math functions
+let c = -1
+print(abs(c)) // absolute number
+print(max(a, b)) // max number of the two
+print (min(a, b)) // min number of the two
