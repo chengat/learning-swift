@@ -79,6 +79,15 @@ print(a > b) // more than
 print(a < b) // less than
 print(a != b) //Not equal
 
+// to store just one letter or number or symbol or unicode - Character
+let char: Character = "N"
+print("Your middle initial is: \(char)")
+
+// length of a string - var.count
+print(name.count)
+
+// converting a char to str - String(charVarName)
+print(String(char))
 
 
 
