@@ -66,3 +66,19 @@ print(b % a)
 
 //to cast int to double: Double(varName)
 print(Double(a))
+
+// boolean operators
+let x = true, y = false
+print(x && y) // AND operator
+print(x || y) // OR operator
+print(!x) // NOT operator
+
+// comparison operators
+print(a == b) // equal
+print(a > b) // more than
+print(a < b) // less than
+print(a != b) //Not equal
+
+
+
+
