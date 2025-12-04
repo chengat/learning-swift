@@ -117,3 +117,38 @@ print(name)
  && before ||
  
  */
+
+// string methods
+print(name.isEmpty) // checks if its an empty string, this returns false
+var cow = ""
+print(cow.isEmpty) // returns true
+
+print(name.uppercased()) // convert string to uppercase
+print(name.lowercased()) // convert string to lowercase
+
+//substring
+var start = name.startIndex // first index - starts at 0
+var end = name.index(start, offsetBy: 3) // third index
+var sub = name[start..<end]
+print(sub)
+
+//to convert number to text - String(var)
+print(String(a))
+
+//converting string to number will return optionals
+
+//special characters
+print("Hello\nSwift") // newline
+print("A\tB\tC") // tab
+print("\"quoted\"") //quotes " "
+print("\\") //backslash \
+
+// """ for multiline strings
+let poem = """
+Roses are red,
+Violets are blue.
+"""
+print(poem)
+
+
+
