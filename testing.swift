@@ -8,7 +8,7 @@
 print("Hello World") // print statement
 
 var age = 23 // for variables, declaring like this will allow compiler to infer data type
-let name = "Nikhil" // for constants, cant be changed, similar to adding final to variables in java
+var name = "Nikhil" // for constants, cant be changed, similar to adding final to variables in java
 
 // Common data types: String, Bool, Int, Double
 var lastName: String = "Chengat" // to specify the datatype for variable
@@ -19,7 +19,7 @@ var weight: Double = 205.6
 // printing variables: \(varName) aka string interpolation
 print("Hello \(name) \(lastName)! You are \(age) and your height is \(height) cm and your weight is \(weight) lbs." )
 
-let a = 1; let b = 2 // ; only for having multiple expressions in one line
+var a = 1; let b = 2 // ; only for having multiple expressions in one line
 print("\(a) + \(b) = \(a+b)") // \() syntax can do in line math and print em
 
 // to print without a newline, user terminator
@@ -73,7 +73,7 @@ print(x && y) // AND operator
 print(x || y) // OR operator
 print(!x) // NOT operator
 
-// comparison operators
+// comparison operators >=, <=
 print(a == b) // equal
 print(a > b) // more than
 print(a < b) // less than
@@ -95,4 +95,25 @@ print(String(char))
 -   as?: optional downcast, might fail
 -   as!: forced downcast, risky and could crash */
 
+// ternary operator: condition ? a : b - do a if condition true and b if it isnt
+let score: Int = 85
+let flag = (score > 90) ? "A" : "not A"
+print(flag)
 
+// compound operators: +=, -=, etc.
+print(a)
+a += 5 // same as a = a + 5
+print(a)
+
+// += can also be used to append strings
+print(name)
+name += " Nambiar"
+print(name)
+
+/*
+ operator precedence
+ 
+ * before +
+ && before ||
+ 
+ */
