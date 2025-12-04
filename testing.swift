@@ -56,3 +56,13 @@ print (`switch`)
 
 //to view the datatype of a variable - type(of: varName)
 print(type(of: a))
+
+// arithmetic operators
+print(a + b)
+print(a - b)
+print(a * b)
+print(b / a) // int / int = int
+print(b % a)
+
+//to cast int to double: Double(varName)
+print(Double(a))
