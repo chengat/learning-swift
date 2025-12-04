@@ -54,3 +54,5 @@ print (a, b, c, separator: " | ", terminator:"; \n") // separator to dicatate wh
 let `switch`: String = "yes"
 print (`switch`)
 
+//to view the datatype of a variable - type(of: varName)
+print(type(of: a))
