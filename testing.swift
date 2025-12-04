@@ -50,3 +50,7 @@ print (nickname ?? "no nickname") // print nickname if it has a value, print "no
 print (a, b, c, separator: " | ", terminator:"; \n") // separator to dicatate whats printed in between each var instead of " " by default.
 // terminator can also be used to dicatate how a line ends, using terminator would remove printing a newline unless '\n' is added to it.
 
+// to use keywords as variable names, use ` `
+let `switch`: String = false
+print (`switch`)
+
