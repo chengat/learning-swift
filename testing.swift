@@ -90,4 +90,9 @@ print(name.count)
 print(String(char))
 
 
+/* 3 types of casting
+-   as: safe upcast, guranteed cast
+-   as?: optional downcast, might fail
+-   as!: forced downcast, risky and could crash */
+
 
