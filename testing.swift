@@ -51,6 +51,6 @@ print (a, b, c, separator: " | ", terminator:"; \n") // separator to dicatate wh
 // terminator can also be used to dicatate how a line ends, using terminator would remove printing a newline unless '\n' is added to it.
 
 // to use keywords as variable names, use ` `
-let `switch`: String = false
+let `switch`: String = "yes"
 print (`switch`)
 
