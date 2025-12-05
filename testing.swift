@@ -150,5 +150,38 @@ Violets are blue.
 """
 print(poem)
 
+// arrays
+var list1 = [1, 2, 3, 4]
+print(list1[0]) //prints the first element of the array
+list1.append(5) // adds to the end of the array
+print(list1) // prints the entire list
+print(list1.count) // prints the length of the list
+print(list1.isEmpty) // would return true if list is empty
+list1.insert(6, at: 2) // to insert element at a specific position, this case at index 2
+print(list1)
+list1.remove(at: 1)  // to remove element at a specific position, this at index 1
+print(list1)
 
+//looping through arrays
+let fruits = ["Apple", "Banana", "Orange", "Grapes"]
+// using for-in
+for fruit in fruits {
+    print(fruit)
+}
+// using enumerated()
+for (i, fruit) in fruits.enumerated() {
+    print("\(i+1): \(fruit)")
+}
+// using forEach
+fruits.forEach { print($0)}
+fruits.enumerated().forEach {print("\($0.offset + 1): \($0.element)")}
 
+//Array Slicing
+let middle = list1[1...3] // lowerbound and upperbound inclusive, the type is ArraySlice
+print(middle)
+let copy = Array(middle) // converts the type from ArraySlice to Array
+print(copy)
+let middle2 = list1[1..<3] // lowerbound inclusive, upperbound exclusive
+print(middle2)
+print(list1[...2]) // first three elements (upperbound inclusive)
+print(list1[2...]) // from index 2 to the end (lowerbound inclusive)
