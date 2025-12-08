@@ -194,3 +194,13 @@ for index in items.indices {
 }
 let lastIndex = items.index(before: items.endIndex) // to see the last valid index of a list
 print(lastIndex)
+
+// 2D Arrays
+var grid = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+print(grid)
+print(grid[0][2]) // to access a particular element in the 2D array: grid[row][col]
+for row in grid { //to print out each row of the 2D Array
+    print(row)
+}
+grid[1][1] = 2 // to change a particular element
+print(grid[1])
