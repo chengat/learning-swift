@@ -185,3 +185,12 @@ let middle2 = list1[1..<3] // lowerbound inclusive, upperbound exclusive
 print(middle2)
 print(list1[...2]) // first three elements (upperbound inclusive)
 print(list1[2...]) // from index 2 to the end (lowerbound inclusive)
+
+//indices
+// to iterate through the list using indices
+let items = [10, 20, 30]
+for index in items.indices {
+    print("index: \(index), value: \(items[index])")
+}
+let lastIndex = items.index(before: items.endIndex) // to see the last valid index of a list
+print(lastIndex)
