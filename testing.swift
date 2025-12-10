@@ -238,4 +238,19 @@ case 70..<80:
 default:
     print("Below C")
 }
+
+// while loop
+var n = 3
+while n > 0 {
+    print(n)
+    n -= 1
+}
+print("Liftoff!")
+
+// repeat {} while, similar to do-while in java where loops runs body first and then checks the condition
+var attempts = 0
+repeat {
+    attempts += 1
+    print("Attempt #\(attempts)")
+} while attempts < 3
  
