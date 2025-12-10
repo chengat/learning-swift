@@ -204,3 +204,13 @@ for row in grid { //to print out each row of the 2D Array
 }
 grid[1][1] = 2 // to change a particular element
 print(grid[1])
+
+// Array Methods
+
+let scores = [80, 75, 90, 60, 70]
+let passed = scores.filter{ $0 >= 75 } // .filter {condition} used to filter out an array based on a condition
+print(passed) // prints [80, 75, 90]
+let curved = passed.map { $0 + 5} // .map {expression} used to carry out artithmetic to all elements
+print(curved) // prints [85, 80, 95]
+let sumofScores = curved.reduce(0, +) // for taking a list and combining it into one value. Here, the starting value is set to 0 and + is to indicate the expression to use, so this will add all elements of cuved
+let scores.contains(80) // .contains to check if specifc data exists in the array. Would return true if it exists
