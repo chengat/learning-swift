@@ -214,3 +214,16 @@ let curved = passed.map { $0 + 5 } // .map {expression} used to carry out artith
 print(curved) // prints [85, 80, 95]
 let sumofScores = curved.reduce(0, +) // for taking a list and combining it into one value. Here, the starting value is set to 0 and + is to indicate the expression to use, so this will add all elements of cuved
 print(scores.contains(80)) // .contains to check if specifc data exists in the array. Would return true if it exists
+
+// if-else
+let scoreB = 99
+
+if scoreB >= 90 {
+    print("A")
+} else if scoreB >= 80 {
+    print ("B")
+} else {
+    print("C or lower")
+}
+ 
+ 
