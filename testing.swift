@@ -254,3 +254,10 @@ repeat {
     print("Attempt #\(attempts)")
 } while attempts < 3
  
+// for loop
+for i in 1...3 {
+    print(i)
+}
+
+// forEach
+["A", "B", "C"].forEach { print($0) }
