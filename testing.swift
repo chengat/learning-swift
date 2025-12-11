@@ -261,3 +261,19 @@ for i in 1...3 {
 
 // forEach
 ["A", "B", "C"].forEach { print($0) }
+
+// break - for stoping the loop immediately
+for j in 1...10 {
+    if j == 4 {
+        break
+    }
+    print(j)
+}
+
+// continue - to skip the current iteration and move to the next
+for k in 1...5 {
+    if k % 2 == 0 {
+        continue
+    }
+    print(k)
+}
